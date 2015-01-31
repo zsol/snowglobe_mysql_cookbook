@@ -4,3 +4,4 @@ metadata
 
 cookbook 'mysql'
 cookbook 'encrypted_attributes'
+cookbook 'openssl'

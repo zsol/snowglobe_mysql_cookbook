@@ -5,4 +5,5 @@ long_description 'Installs/Configures snowglobe_mysql'
 version          '0.1.0'
 
 depends 'encrypted_attributes'
-
+depends 'mysql'
+depends 'database'
