@@ -1,4 +1,5 @@
 include_recipe "encrypted_attributes::users_data_bag"
+include_recipe "mysql-chef_gem"
 
 
 self.class.send(:include, Chef::EncryptedAttributesHelpers)
