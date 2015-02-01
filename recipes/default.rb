@@ -39,7 +39,7 @@ end
 
 conn = {
   :host => mysql_host,
-  :port => mysql_port,
+  :port => mysql_port.to_i,
   :password => mysql_root_password,
   :username => 'root',
 }

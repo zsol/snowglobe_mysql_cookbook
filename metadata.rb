@@ -6,5 +6,5 @@ version          '0.1.0'
 
 depends 'encrypted_attributes'
 depends 'mysql', "~> 5.6"
-depends 'database', "~> 2.3"
+depends 'database', ">= 2.3"
 depends 'mysql-chef_gem'
