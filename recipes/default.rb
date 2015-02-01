@@ -57,3 +57,8 @@ mysql_database "create pdns tables" do
   sql { ::File.open(schema_file).read }
   action :nothing
 end
+
+
+# o/ pdns cookbook
+
+node.default['pdns']['authoritative']['config'].delete('pipe_command')
